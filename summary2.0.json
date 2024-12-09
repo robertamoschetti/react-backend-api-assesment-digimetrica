@@ -146,7 +146,7 @@
           "dmarc_policy": "quarantine",
           "blacklist_detections": 2,
           "blacklist_total_list": 50,
-          "blacklist_detected_list": ["Spamhaus"]
+          "blacklist_detected_list": ["Spamhaus", "Spam2"]
         },
         "n_dataleak": {
           "total": {
