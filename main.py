@@ -32,7 +32,7 @@ async def get_report():
 async def download_csv():
     try:
         # Legge il file JSON
-        with open("summary2.0.jadsson", "r") as file:
+        with open("summary2.0.json", "r") as file:
             data = json.load(file)
 
         # Creazione di un buffer in memoria per il CSV
